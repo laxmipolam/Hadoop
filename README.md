@@ -16,7 +16,7 @@ chmod +x mapper.py && chmod +x reducer.py
 
 # To Execute:
 
-(Summaryname can be replaced with any name)
+(summaryname can be replaced with any other name)
 
 hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar -file ~/mapper.py -mapper ~/mapper.py -file ~/reducer.py -reducer ~/reducer.py -input /user/polamli/nyc.csv -output /user/polamli/summaryname
 
