@@ -5,7 +5,9 @@
 git clone https://github.com/laxmipolam/Hadoop.git
 
 # To get data:
-hadoop fs -get /user/tatavag/nyc.data /home/nyc
+hadoop fs -get /user/tatavag/nyc.data /home/polamli/nyc
+
+
 hadoop fs -get /user/tatavag/nyc.data ~/Hadoop/nyc.csv
 
 hadoop fs -put nyc.csv /user/polamli/nyc.csv ( Already Exists)
